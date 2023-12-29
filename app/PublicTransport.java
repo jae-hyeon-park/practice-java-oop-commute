@@ -1,6 +1,7 @@
 package dev.syntax.app;
 
 public class PublicTransport {
+	
 	private String type;
 	private int num; //버스는 버스번호, 지하철은 호선을 의미
 	private int passenger = 0; //승객수

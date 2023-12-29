@@ -3,8 +3,8 @@ package dev.syntax.app;
 public class TransportSystem {
 
 	public static void main(String[] args) {
-		PublicTransport bus = new PublicTransport("bus", 770, 1500);
-		PublicTransport subway = new PublicTransport("subway", 1, 1000);
+		Bus bus = new Bus("bus", 770, 1500);
+		Subway subway = new Subway("subway", 1, 1000);
 		
 		Student ho = new Student("ho", 3000);
 		
